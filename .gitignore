@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment/secrets
+.env
+*.key
+*.pem
+*secret*
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Large raw datasets
+datasets/
+
+# Nested Git repositories
+**/.git/

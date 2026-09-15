@@ -1,0 +1,18 @@
+from enum import Enum
+
+
+class CognitiveStatus(Enum):
+
+    INITIALIZED = "INITIALIZED"
+
+    MONITORING = "MONITORING"
+
+    DRIFT_ANALYZED = "DRIFT_ANALYZED"
+
+    VALIDATED = "VALIDATED"
+
+    REFLECTING = "REFLECTING"
+
+    MEMORY_UPDATED = "MEMORY_UPDATED"
+
+    READY = "READY"
